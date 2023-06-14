@@ -2,7 +2,7 @@ import user from '../data/user.json';
   import data from '../data/data.json';
   import friends from '../data/friends.json'
   import { FriendList } from './friendListComponent/friendsList';
-  import { FriendListItem } from "components/friendComponent/friendListItem"
+  // import { FriendListItem } from "components/friendComponent/friendListItem"
 import { Statistics } from './statisticsComponent/statistics';
 import { UserProfile } from './userComponent/userProfile';
 

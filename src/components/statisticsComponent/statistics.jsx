@@ -1,4 +1,4 @@
- import data from '../../data/data.json'
+//  import data from '../../data/data.json'
 export const Statistics = ({ title, stats}) => {
   // return stats.map((stat)=>{
     return (
