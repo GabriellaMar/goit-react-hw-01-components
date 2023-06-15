@@ -1,0 +1,42 @@
+.status {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.online {
+    background-color: green;
+}
+
+.offline {
+    background-color: red;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+}
+
+.list>.item {
+    display: flex;
+    width: 600px;
+    height: 100px;
+    padding: 25px;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 0px 5px 4px rgb(207, 205, 205);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 30px;
+}
